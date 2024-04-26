@@ -1,12 +1,47 @@
+.bigDiv{
+    width: 500px;
+    margin:auto;
+};
+li {
+    animation-duration: 4s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
 
-/* 
-
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
+  .trash{
+    color: rgb(140, 40, 40);
+  }
+  .check{
+    color:rgb(10, 203, 10)
+  }
+  .btnfos-5 {
+    border: 0 solid;
+    box-shadow: inset 0 0 20px rgba(255, 6, 6, 0.442);
+    outline: 1px solid;
+    outline-color: rgb(253, 0, 0);
+    outline-offset: 0px;
+    text-shadow: none;
+    -webkit-transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
+            transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
+    outline-color: rgba(242, 12, 12, 0.601);
+    outline-offset: 0px;
+  }
+  
+  .btnfos-5:hover {
+    border: 1px solid;
+    box-shadow: inset 0 0 20px rgb(0, 0, 0), 0 0 20px rgba(255, 255, 255, 0.2);
+    outline-offset: 15px;
+    outline-color: rgba(9, 9, 9, 0);
+    text-shadow: 1px 1px 2px #f80505;
+  }
