@@ -106,7 +106,7 @@ const Home = () => {
 			setToDos(newToDos);
 		};
 		const DeleteAll = async () => {
-			await fetch('https://playground.4geeks.com/todo/todos',{
+			await fetch('https://playground.4geeks.com/todo/users/ndl10',{
 		  method: 'DELETE',
 		  headers: {
 			  "content-type": "application/json"
